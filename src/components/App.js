@@ -4,8 +4,6 @@ import '../styles/index.css';
 import { Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
 import MemeItem from './MemeItem';
 import MyMemes from './MyMemes';
-import Minimap from 'minimap-react';
-import 'minimap-react/lib/react-minimap.css';
 
 
 class App extends Component {
@@ -52,12 +50,6 @@ class App extends Component {
             }}>
                 Load 10 more memes...
             </div>
-            <Minimap
-                rootId="root"
-                position="right"
-                smoothScroll={true}
-                smoothScrollDelay={200}
-                toggle={true}/>
         </div>)
     }
 }
